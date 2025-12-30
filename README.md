@@ -28,6 +28,6 @@ This project helped me understand how **real e-commerce frontend logic works**, 
 It is suitable for **frontend practice, internships, and portfolio showcase**.
 
 ## 🖼️ Screenshots
-
+https://github.com/AnshikaCraftCode/Bookshop-sample-website/blob/main/bookstore2.png?raw=true
 
 © 2025 Bookworm Store
