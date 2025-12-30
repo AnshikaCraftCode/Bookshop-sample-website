@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bookworm Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <h1>Bookworm Store</h1>
+    <p>Discover • Read • Grow</p>
+  </div>
+  <nav>
+    <a href="#books">Books</a>
+    <a href="#contact">Contact</a>
+    <button id="cartBtn">Cart 🛒 (<span id="cartCount">0</span>)</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Your Online Bookstore</h2>
+  <p>Handpicked famous books with simple explanations to help you choose better.</p>
+</section>
+
+<section id="books" class="book-grid"></section>
+
+<!-- Book Detail Modal -->
+<div id="bookModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modalImg">
+    <h3 id="modalTitle"></h3>
+    <p id="modalAuthor"></p>
+    <p id="modalGenre"></p>
+    <p id="modalYear"></p>
+    <p id="modalDesc"></p>
+    <p id="modalPrice"></p>
+    <button id="modalAddCart">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Cart -->
+<div id="cartPanel" class="cart-panel">
+  <h3>Your Cart</h3>
+  <div id="cartItems"></div>
+  <h4>Total: ₹<span id="cartTotal">0</span></h4>
+</div>
+
+<footer id="contact">
+  <p>📍 Mumbai, India</p>
+  <p>📞 +91 98765 43210</p>
+  <p>© 2025 Bookworm Store</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
